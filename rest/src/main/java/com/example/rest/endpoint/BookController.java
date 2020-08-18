@@ -15,7 +15,7 @@ public class BookController {
     private final BookService bookService;
 
     @GetMapping("/books")
-    public List<Book> grtBooks() {
+    public List<Book> getBooks() {
         return bookService.findAll();
     }
 
